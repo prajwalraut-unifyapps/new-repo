@@ -1,0 +1,44 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1751975472697,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"686d0630809b210f5890d8c2",
+	"lastModifiedBy":34,
+	"lcName":"automation_amazon sagemakerdelete11751966973415",
+	"modifiedTime":1751975491222,
+	"name":"Automation_Amazon sagemakerDelete11751966973415",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_x1FE0-1",
+			"id":"n_zKk9c",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
