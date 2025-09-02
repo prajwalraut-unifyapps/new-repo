@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750337045347,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_kyjlz",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_mQG53",
+			"type":"next"
+		}
+	],
+	"id":"68540615c629c934b66726c4",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonintercom_11750333147660",
+	"modifiedTime":1750514267538,
+	"name":"TestButtonIntercom_11750333147660",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_kyjlz-1",
+			"id":"_kyjlz",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_kyjlz-1",
+			"id":"_mQG53",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
