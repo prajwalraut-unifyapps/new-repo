@@ -1,0 +1,44 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1750437447547,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"68558e4781b4857b1db10f8a",
+	"lastModifiedBy":34,
+	"lcName":"automation_vonage smsdelete11750434726118",
+	"modifiedTime":1750513498972,
+	"name":"Automation_Vonage SMSDelete11750434726118",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OCOwx-1",
+			"id":"n_5AZjP",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
