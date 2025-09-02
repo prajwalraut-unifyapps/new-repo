@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750336977143,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_6lCay",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_mQ0x6",
+			"type":"next"
+		}
+	],
+	"id":"685405d1c629c934b66724fd",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonibm mq_11750333147660",
+	"modifiedTime":1750514272115,
+	"name":"TestButtonIBM MQ_11750333147660",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_6lCay-1",
+			"id":"_6lCay",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_6lCay-1",
+			"id":"_mQ0x6",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
