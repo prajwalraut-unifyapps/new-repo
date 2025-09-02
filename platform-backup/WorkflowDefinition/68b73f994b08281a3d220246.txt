@@ -2,6 +2,14 @@
 	"appsUsed":["gmail"],
 	"createdTime":1756839833990,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756839862228,
+		"deployedBy":34,
+		"deployedDefinitionId":"68b73fb64b08281a3d220399",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_3uJWp",
@@ -14,7 +22,7 @@
 	"id":"68b73f994b08281a3d220246",
 	"lastModifiedBy":34,
 	"lcName":"dnd",
-	"modifiedTime":1756839859975,
+	"modifiedTime":1756839862230,
 	"name":"DND",
 	"nodes":[
 		{
@@ -25,7 +33,7 @@
 				"resourceName":"gmail_on_new_email_polling"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_1lh1j-1",
 			"id":"n_3uJWp",
@@ -51,7 +59,7 @@
 				"appName":"stop"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_1lh1j-1",
 			"id":"n_hrFUh",
