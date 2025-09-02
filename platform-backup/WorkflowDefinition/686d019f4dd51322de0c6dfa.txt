@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751974303796,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_oWzwD",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_a55vL",
+			"type":"next"
+		}
+	],
+	"id":"686d019f4dd51322de0c6dfa",
+	"lastModifiedBy":34,
+	"lcName":"testbuttongoogle drive_11751966969264",
+	"modifiedTime":1751974342946,
+	"name":"TestButtonGoogle Drive_11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_oWzwD-1",
+			"id":"_oWzwD",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_oWzwD-1",
+			"id":"_a55vL",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
