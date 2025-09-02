@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751973513213,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_tB8KR",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_XjroZ",
+			"type":"next"
+		}
+	],
+	"id":"686cfe891c9c8204156aa22f",
+	"lastModifiedBy":34,
+	"lcName":"testbuttondeepgram_11751966969264",
+	"modifiedTime":1751973543607,
+	"name":"TestButtonDeepgram_11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_tB8KR-1",
+			"id":"_tB8KR",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_tB8KR-1",
+			"id":"_XjroZ",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
