@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1751996078614,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_dTwKA",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_ZcKa0",
+			"type":"next"
+		}
+	],
+	"id":"686d56ae2fb5613300fd2c9c",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonamazon bedrock_11751992714623",
+	"modifiedTime":1751996114414,
+	"name":"TestButtonAmazon Bedrock_11751992714623",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_dTwKA-1",
+			"id":"_dTwKA",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_dTwKA-1",
+			"id":"_ZcKa0",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
