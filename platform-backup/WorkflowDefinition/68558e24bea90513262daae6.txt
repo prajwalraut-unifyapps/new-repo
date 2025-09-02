@@ -1,0 +1,44 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1750437412537,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"68558e24bea90513262daae6",
+	"lastModifiedBy":34,
+	"lcName":"automation_vimeodelete11750434726118",
+	"modifiedTime":1750513499961,
+	"name":"Automation_VimeoDelete11750434726118",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_5iOZn-1",
+			"id":"n_39B8t",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
