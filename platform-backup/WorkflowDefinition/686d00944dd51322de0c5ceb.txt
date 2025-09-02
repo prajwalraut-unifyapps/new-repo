@@ -1,0 +1,44 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1751974036696,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"686d00944dd51322de0c5ceb",
+	"lastModifiedBy":34,
+	"lcName":"automation_zoho invoicedelete11751966949458",
+	"modifiedTime":1751974087601,
+	"name":"Automation_Zoho InvoiceDelete11751966949458",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_J6BNS-1",
+			"id":"n_f08iC",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
