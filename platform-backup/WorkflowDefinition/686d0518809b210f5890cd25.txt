@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751975192796,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_JhHZD",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_tFe1s",
+			"type":"next"
+		}
+	],
+	"id":"686d0518809b210f5890cd25",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonmicrosoft azure sql database_11751966969264",
+	"modifiedTime":1751975219704,
+	"name":"TestButtonMicrosoft Azure SQL Database_11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_JhHZD-1",
+			"id":"_JhHZD",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_JhHZD-1",
+			"id":"_tFe1s",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
