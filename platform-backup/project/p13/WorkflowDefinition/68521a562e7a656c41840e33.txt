@@ -1,0 +1,52 @@
+{
+	"appsUsed":[],
+	"createdTime":1750211158337,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"68521a562e7a656c41840e33",
+	"lastModifiedBy":34,
+	"lcName":"rbac-ui-pleditapimanagerulcplerlv-117502106725200",
+	"modifiedTime":1750516096681,
+	"name":"rbac-ui-PLEditAPIManagerULcPLeRLv-117502106725200",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":627,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_1i6wh-1",
+			"id":"n_KfV9R",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"projectId":13,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
