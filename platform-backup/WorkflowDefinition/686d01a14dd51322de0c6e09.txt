@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751974305061,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_S6hg9",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_k20wg",
+			"type":"next"
+		}
+	],
+	"id":"686d01a14dd51322de0c6e09",
+	"lastModifiedBy":34,
+	"lcName":"testbuttongoogle forms_11751966969264",
+	"modifiedTime":1751974347563,
+	"name":"TestButtonGoogle Forms_11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_S6hg9-1",
+			"id":"_S6hg9",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_S6hg9-1",
+			"id":"_k20wg",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
