@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751973200996,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_srhFl",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_vViqB",
+			"type":"next"
+		}
+	],
+	"id":"686cfd501c9c8204156a5cfa",
+	"lastModifiedBy":34,
+	"lcName":"testbuttoncoldreach_11751966969264",
+	"modifiedTime":1751973235206,
+	"name":"TestButtonColdreach_11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_srhFl-1",
+			"id":"_srhFl",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_srhFl-1",
+			"id":"_vViqB",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
