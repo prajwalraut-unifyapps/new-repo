@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754118584102,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_tIujt",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Ypgqf",
+			"type":"next"
+		}
+	],
+	"id":"688db9b8ec7a3cd32c3937bd",
+	"lastModifiedBy":34,
+	"lcName":"automation_google drivedelete11754118390218",
+	"modifiedTime":1754309238305,
+	"name":"Automation_Google DriveDelete11754118390218",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_tIujt-1",
+			"id":"_tIujt",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_tIujt-1",
+			"id":"_Ypgqf",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
