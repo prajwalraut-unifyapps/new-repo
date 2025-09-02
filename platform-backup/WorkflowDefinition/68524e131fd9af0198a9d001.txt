@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750224403647,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_sNUKW",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_h0gdz",
+			"type":"next"
+		}
+	],
+	"id":"68524e131fd9af0198a9d001",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonhugging face_11750219175914",
+	"modifiedTime":1750515720683,
+	"name":"TestButtonHugging face_11750219175914",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_sNUKW-1",
+			"id":"_sNUKW",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_sNUKW-1",
+			"id":"_h0gdz",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
