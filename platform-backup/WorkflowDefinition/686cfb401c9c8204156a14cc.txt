@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751972672005,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_72nRS",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_4cHpk",
+			"type":"next"
+		}
+	],
+	"id":"686cfb401c9c8204156a14cc",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonamazon s3_11751966969264",
+	"modifiedTime":1751972694914,
+	"name":"TestButtonAmazon S3_11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_72nRS-1",
+			"id":"_72nRS",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_72nRS-1",
+			"id":"_4cHpk",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
