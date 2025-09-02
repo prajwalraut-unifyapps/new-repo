@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751975542149,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_jPutP",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_591wx",
+			"type":"next"
+		}
+	],
+	"id":"686d0676809b210f5890dbde",
+	"lastModifiedBy":34,
+	"lcName":"zendesk uploads attachment - 117519669494580",
+	"modifiedTime":1751975558096,
+	"name":"Zendesk Uploads attachment - 117519669494580",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_jPutP-1",
+			"id":"_jPutP",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_jPutP-1",
+			"id":"_591wx",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
