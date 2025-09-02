@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751973519296,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_HNEFC",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_HKMfT",
+			"type":"next"
+		}
+	],
+	"id":"686cfe8f1c9c8204156aa326",
+	"lastModifiedBy":34,
+	"lcName":"testbuttondelhivery_11751966969264",
+	"modifiedTime":1751973553596,
+	"name":"TestButtonDelhivery_11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HNEFC-1",
+			"id":"_HNEFC",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HNEFC-1",
+			"id":"_HKMfT",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
