@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750325392748,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_B6BfI",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_fdVeo",
+			"type":"next"
+		}
+	],
+	"id":"6853d8907d7d880374168862",
+	"lastModifiedBy":34,
+	"lcName":"cutandpastenode_117503245776310",
+	"modifiedTime":1750514556497,
+	"name":"cutAndPasteNode_117503245776310",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_B6BfI-1",
+			"id":"_B6BfI",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_B6BfI-1",
+			"id":"_fdVeo",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
