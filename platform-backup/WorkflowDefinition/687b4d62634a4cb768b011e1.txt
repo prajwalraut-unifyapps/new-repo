@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1752911202241,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_1xRp4",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Txh5Q",
+			"type":"next"
+		}
+	],
+	"id":"687b4d62634a4cb768b011e1",
+	"lastModifiedBy":34,
+	"lcName":"create variables using map from step button to add fields is working correctly and input menu item is coming up and clicking on unlink the fields are still present_117529111946750",
+	"modifiedTime":1752911215236,
+	"name":"Create variables Using Map from step button to add fields is working correctly and Input menu item is coming up and clicking on Unlink the fields are still present_117529111946750",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_1xRp4-1",
+			"id":"_1xRp4",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_1xRp4-1",
+			"id":"_Txh5Q",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
