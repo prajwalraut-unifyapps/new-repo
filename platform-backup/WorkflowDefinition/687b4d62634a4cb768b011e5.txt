@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1752911202413,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_aM1G1",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_D4KH7",
+			"type":"next"
+		}
+	],
+	"id":"687b4d62634a4cb768b011e5",
+	"lastModifiedBy":34,
+	"lcName":"create list - add field button should be able to add field and should be able to add field after clear all fields through clear all and delete_117529111946750",
+	"modifiedTime":1752911222154,
+	"name":"Create list - Add field button should be able to add field and should be able to add field after clear all fields through clear all and delete_117529111946750",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_aM1G1-1",
+			"id":"_aM1G1",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_aM1G1-1",
+			"id":"_D4KH7",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
