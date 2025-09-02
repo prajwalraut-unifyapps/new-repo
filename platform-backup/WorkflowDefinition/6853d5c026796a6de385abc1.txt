@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750324672047,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_ALKpC",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_RPGLj",
+			"type":"next"
+		}
+	],
+	"id":"6853d5c026796a6de385abc1",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonoracle fusion_11750324577631",
+	"modifiedTime":1750514578769,
+	"name":"TestButtonOracle Fusion_11750324577631",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ALKpC-1",
+			"id":"_ALKpC",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ALKpC-1",
+			"id":"_RPGLj",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
