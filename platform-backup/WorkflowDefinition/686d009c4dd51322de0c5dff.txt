@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751974044996,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_Kc2Je",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_XgPai",
+			"type":"next"
+		}
+	],
+	"id":"686d009c4dd51322de0c5dff",
+	"lastModifiedBy":34,
+	"lcName":"testbuttongitlab_11751966969264",
+	"modifiedTime":1751974082211,
+	"name":"TestButtonGitLab_11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Kc2Je-1",
+			"id":"_Kc2Je",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Kc2Je-1",
+			"id":"_XgPai",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
