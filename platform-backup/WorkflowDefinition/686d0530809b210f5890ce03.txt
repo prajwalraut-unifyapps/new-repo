@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751975216203,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_NH9rW",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_4xq0l",
+			"type":"next"
+		}
+	],
+	"id":"686d0530809b210f5890ce03",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonmicrosoft business central_11751966969264",
+	"modifiedTime":1751975240926,
+	"name":"TestButtonMicrosoft Business Central_11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_NH9rW-1",
+			"id":"_NH9rW",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_NH9rW-1",
+			"id":"_4xq0l",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
