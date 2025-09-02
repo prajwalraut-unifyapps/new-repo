@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750132978267,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_Leaiz",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_u4Cx3",
+			"type":"next"
+		}
+	],
+	"id":"6850e8f2ab62f425b1867e25",
+	"lastModifiedBy":34,
+	"lcName":"latest_version_as_default_117501324574500",
+	"modifiedTime":1750516309262,
+	"name":"Latest_Version_As_Default_117501324574500",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Leaiz-1",
+			"id":"_Leaiz",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Leaiz-1",
+			"id":"_u4Cx3",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
