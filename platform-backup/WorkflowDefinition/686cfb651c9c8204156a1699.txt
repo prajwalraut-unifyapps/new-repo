@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751972709303,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_w7Ovb",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_cmxFi",
+			"type":"next"
+		}
+	],
+	"id":"686cfb651c9c8204156a1699",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonamazon ses_11751966969264",
+	"modifiedTime":1751972734811,
+	"name":"TestButtonAmazon SES_11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_w7Ovb-1",
+			"id":"_w7Ovb",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_w7Ovb-1",
+			"id":"_cmxFi",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
