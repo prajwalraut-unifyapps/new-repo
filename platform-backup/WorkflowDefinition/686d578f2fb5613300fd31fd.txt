@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1751996303113,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_tHLFo",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_epC6p",
+			"type":"next"
+		}
+	],
+	"id":"686d578f2fb5613300fd31fd",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonamazon athena_11751992714623",
+	"modifiedTime":1751996336804,
+	"name":"TestButtonAmazon athena_11751992714623",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_tHLFo-1",
+			"id":"_tHLFo",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_tHLFo-1",
+			"id":"_epC6p",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
