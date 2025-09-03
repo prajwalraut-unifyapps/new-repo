@@ -1,0 +1,55 @@
+{
+	"appsUsed":[],
+	"createdTime":1744039576778,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"fXNeH",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"zHG8u",
+			"type":"next"
+		}
+	],
+	"id":"67f3ee9887fcc53cf63d29c1",
+	"lastModifiedBy":-1,
+	"lcName":"testdatapill",
+	"modifiedTime":1755496326335,
+	"name":"testdatapill",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"fXNeH-1",
+			"id":"fXNeH",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"fXNeH-1",
+			"id":"zHG8u",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":15
+}
