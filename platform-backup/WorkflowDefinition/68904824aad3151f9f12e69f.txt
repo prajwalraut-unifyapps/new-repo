@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754286116206,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_1nmQp",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_PT43E",
+			"type":"next"
+		}
+	],
+	"id":"68904824aad3151f9f12e69f",
+	"lastModifiedBy":34,
+	"lcName":"automation_excel by unifyappsdelete11754284269014",
+	"modifiedTime":1754372598372,
+	"name":"Automation_Excel by UnifyAppsDelete11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_1nmQp-1",
+			"id":"_1nmQp",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_1nmQp-1",
+			"id":"_PT43E",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
