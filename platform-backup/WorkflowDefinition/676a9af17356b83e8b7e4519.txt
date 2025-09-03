@@ -1,0 +1,55 @@
+{
+	"appsUsed":[],
+	"createdTime":1735039729261,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_9tgE5",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_oEVUW",
+			"type":"next"
+		}
+	],
+	"id":"676a9af17356b83e8b7e4519",
+	"lastModifiedBy":-1,
+	"lcName":"iuwehfier",
+	"modifiedTime":1755496339412,
+	"name":"iuwehfier",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_9tgE5-1",
+			"id":"_9tgE5",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_9tgE5-1",
+			"id":"_oEVUW",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":7
+}
