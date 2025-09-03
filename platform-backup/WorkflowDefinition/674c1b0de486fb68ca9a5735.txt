@@ -1,0 +1,191 @@
+{
+	"appsUsed":[],
+	"createdTime":1733057009392,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_PPviT",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_sBo5a",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_sBo5a",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_sZtHW",
+			"type":"next"
+		}
+	],
+	"id":"674c1b0de486fb68ca9a5735",
+	"lastModifiedBy":-1,
+	"lcName":"pdf convert test",
+	"modifiedTime":1755496333550,
+	"name":"pdf convert test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":114,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_4yQvt-1",
+			"id":"_PPviT",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":150,
+				"resourceName":"variable_by_unifyapps_create_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_4yQvt-1",
+			"id":"_sBo5a",
+			"index":0,
+			"inputSchema":{
+				"type":"SCHEMA_AND_LAYOUT",
+				"dynamic":false,
+				"layout":{
+					
+				},
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"fileDetails":{
+							"type":"object",
+							"properties":{
+								"name":{
+									"type":"string",
+									"title":"Name"
+								},
+								"source":{
+									"type":"string",
+									"title":"Source"
+								},
+								"sourceType":{
+									"type":"string",
+									"title":"Source Type"
+								},
+								"fileType":{
+									"type":"string",
+									"title":"File Type"
+								}
+							},
+							"additionalProperties":false,
+							"title":"File Details",
+							"required":[
+								
+							]
+						}
+					},
+					"required":[
+						
+					]
+				}
+			},
+			"inputs":{
+				"fileDetails":{
+					"name":"example",
+					"source":"user-uploads/1/1733044907382-Dickinson_Sample_Slides.pptx",
+					"fileType":"PPTX"
+				}
+			},
+			"outputSchema":{
+				"type":"SCHEMA",
+				"dynamic":false,
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"fileDetails":{
+							"type":"object",
+							"properties":{
+								"name":{
+									"type":"string",
+									"title":"Name"
+								},
+								"source":{
+									"type":"string",
+									"title":"Source"
+								},
+								"sourceType":{
+									"type":"string",
+									"title":"Source Type"
+								},
+								"fileType":{
+									"type":"string",
+									"title":"File Type"
+								}
+							},
+							"additionalProperties":false,
+							"title":"File Details",
+							"required":[
+								
+							]
+						}
+					},
+					"required":[
+						
+					]
+				}
+			},
+			"skip":false,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Create variables",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"utility_by_unifyapps",
+				"resourceVersion":12,
+				"resourceName":"utility_by_unifyapps_convert_to_pdf",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_4yQvt-1",
+			"id":"_sZtHW",
+			"index":0,
+			"inputs":{
+				"fileDetails":"{{ _sBo5a.outputs.fileDetails }}",
+				"fileType":"PPTX"
+			},
+			"skip":false,
+			"subTitle":"Utility by UnifyApps",
+			"title":"Convert to PDF",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":33653,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":17
+}
