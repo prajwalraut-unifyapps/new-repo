@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1733398437784,
+	"deleted":false,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_sb3GJ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_70GQm",
+			"type":"next"
+		}
+	],
+	"id":"67518fa5744ad852b26a055f",
+	"lastModifiedBy":-1,
+	"lcName":"rbac-ui-rldeleteapimanager-ulcplvrld-117333982552170",
+	"modifiedTime":1755496334274,
+	"name":"rbac-ui-RLDeleteApiManager-ULcPLvRLd-117333982552170",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_sb3GJ-1",
+			"id":"_sb3GJ",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_sb3GJ-1",
+			"id":"_70GQm",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34794,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":7
+}
