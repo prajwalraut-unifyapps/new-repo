@@ -1,0 +1,55 @@
+{
+	"appsUsed":[],
+	"createdTime":1740807686341,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"eY8av",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"cen6J",
+			"type":"next"
+		}
+	],
+	"id":"67c29e0698d06905620eb414",
+	"lastModifiedBy":-1,
+	"lcName":"checkvar",
+	"modifiedTime":1755496337181,
+	"name":"checkvar",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"eY8av-1",
+			"id":"eY8av",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"eY8av-1",
+			"id":"cen6J",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":7
+}
