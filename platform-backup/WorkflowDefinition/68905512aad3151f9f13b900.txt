@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754289426869,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_RNnqE",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_i04le",
+			"type":"next"
+		}
+	],
+	"id":"68905512aad3151f9f13b900",
+	"lastModifiedBy":34,
+	"lcName":"groovy continue to automation with default return value_117542842690140",
+	"modifiedTime":1754372207189,
+	"name":"GROOVY CONTINUE TO AUTOMATION WITH DEFAULT RETURN VALUE_117542842690140",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_RNnqE-1",
+			"id":"_RNnqE",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_RNnqE-1",
+			"id":"_i04le",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
