@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754285575345,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_sTgYl",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_QFi4y",
+			"type":"next"
+		}
+	],
+	"id":"68904607aad3151f9f12c64b",
+	"lastModifiedBy":34,
+	"lcName":"automation_adp recruiting managementdelete11754284269014",
+	"modifiedTime":1754372675773,
+	"name":"Automation_ADP Recruiting ManagementDelete11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_sTgYl-1",
+			"id":"_sTgYl",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_sTgYl-1",
+			"id":"_QFi4y",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
