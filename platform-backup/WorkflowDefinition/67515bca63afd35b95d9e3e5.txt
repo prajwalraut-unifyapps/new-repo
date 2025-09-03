@@ -1,0 +1,51 @@
+{
+	"appsUsed":[],
+	"createdTime":1733385162938,
+	"deleted":false,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"67515bca63afd35b95d9e3e5",
+	"lastModifiedBy":-1,
+	"lcName":"rbac-ui-ulcreaterleditapimanager-ulcplvrle-117333850014170",
+	"modifiedTime":1755496334117,
+	"name":"rbac-ui-ULCreateRLEditApiManager-ULcPLvRLe-117333850014170",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":84,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_3tkFe-1",
+			"id":"_2Uk7X",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34763,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":8
+}
