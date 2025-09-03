@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754285778011,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_qPfrL",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_VUWbb",
+			"type":"next"
+		}
+	],
+	"id":"689046d2aad3151f9f12d288",
+	"lastModifiedBy":34,
+	"lcName":"automation_bing searchdelete11754284269014",
+	"modifiedTime":1754372645732,
+	"name":"Automation_Bing SearchDelete11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_qPfrL-1",
+			"id":"_qPfrL",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_qPfrL-1",
+			"id":"_VUWbb",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
