@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1733364732619,
+	"deleted":false,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_88BJs",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_3U5Ai",
+			"type":"next"
+		}
+	],
+	"id":"67510bfc677d601a73dbd6c7",
+	"lastModifiedBy":-1,
+	"lcName":"createworkflow-ulcplvrle-117333588922100",
+	"modifiedTime":1755496333904,
+	"name":"Createworkflow-ULcPLvRLe-117333588922100",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_88BJs-1",
+			"id":"_88BJs",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_88BJs-1",
+			"id":"_3U5Ai",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34707,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":7
+}
