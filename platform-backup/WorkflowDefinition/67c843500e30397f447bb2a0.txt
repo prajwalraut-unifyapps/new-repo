@@ -1,0 +1,55 @@
+{
+	"appsUsed":[],
+	"createdTime":1741177680677,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"l5OOi",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"L0Lyr",
+			"type":"next"
+		}
+	],
+	"id":"67c843500e30397f447bb2a0",
+	"lastModifiedBy":-1,
+	"lcName":"cvbh",
+	"modifiedTime":1755496338912,
+	"name":"cvbh",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"l5OOi-1",
+			"id":"l5OOi",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"l5OOi-1",
+			"id":"L0Lyr",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":7
+}
