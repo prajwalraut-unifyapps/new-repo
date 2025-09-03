@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754290123474,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_GGhDW",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_rH6o9",
+			"type":"next"
+		}
+	],
+	"id":"689057cbaad3151f9f13ced6",
+	"lastModifiedBy":34,
+	"lcName":"child callable update schema workflow 11754284269014",
+	"modifiedTime":1754372163683,
+	"name":"Child callable update schema Workflow 11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GGhDW-1",
+			"id":"_GGhDW",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GGhDW-1",
+			"id":"_rH6o9",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
