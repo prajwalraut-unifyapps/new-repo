@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1740810481066,
+	"deleted":false,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"q26vU",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"LLf6q",
+			"type":"next"
+		}
+	],
+	"id":"67c2a8f198d06905620ebfa6",
+	"lastModifiedBy":-1,
+	"lcName":"rbac-create_automation 11740810241260",
+	"modifiedTime":1755496338717,
+	"name":"rbac-create_automation 11740810241260",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"q26vU-1",
+			"id":"q26vU",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"q26vU-1",
+			"id":"LLf6q",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":66691,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":7
+}
