@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754286710341,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_My83S",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_5gaeY",
+			"type":"next"
+		}
+	],
+	"id":"68904a76aad3151f9f130f20",
+	"lastModifiedBy":34,
+	"lcName":"automation_mistral aidelete11754284269014",
+	"modifiedTime":1754372517169,
+	"name":"Automation_Mistral AIDelete11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_My83S-1",
+			"id":"_My83S",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_My83S-1",
+			"id":"_5gaeY",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
