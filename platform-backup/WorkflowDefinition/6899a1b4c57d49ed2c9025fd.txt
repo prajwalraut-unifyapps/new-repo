@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754898868584,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_Kw7GJ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_ozWCT",
+			"type":"next"
+		}
+	],
+	"id":"6899a1b4c57d49ed2c9025fd",
+	"lastModifiedBy":34,
+	"lcName":"chartmogul-create a transactionverifytimeisnotautoupdating117548988474220",
+	"modifiedTime":1754898876621,
+	"name":"ChartMogul-Create a transactionverifyTimeIsNotAutoUpdating117548988474220",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Kw7GJ-1",
+			"id":"_Kw7GJ",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Kw7GJ-1",
+			"id":"_ozWCT",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
