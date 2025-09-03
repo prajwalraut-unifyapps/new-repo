@@ -1,0 +1,55 @@
+{
+	"appsUsed":[],
+	"createdTime":1734934418896,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_wYEpM",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_pvz2O",
+			"type":"next"
+		}
+	],
+	"id":"6768ff929f5480693c8ac3a0",
+	"lastModifiedBy":-1,
+	"lcName":"dfretgverf",
+	"modifiedTime":1755496341027,
+	"name":"dfretgverf",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_wYEpM-1",
+			"id":"_wYEpM",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_wYEpM-1",
+			"id":"_pvz2O",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":7
+}
