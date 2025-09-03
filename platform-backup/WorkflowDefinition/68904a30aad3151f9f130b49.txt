@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754286640914,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_yHU3T",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_gnFjA",
+			"type":"next"
+		}
+	],
+	"id":"68904a30aad3151f9f130b49",
+	"lastModifiedBy":34,
+	"lcName":"automation_microsoft calendardelete11754284269014",
+	"modifiedTime":1754372525335,
+	"name":"Automation_Microsoft CalendarDelete11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_yHU3T-1",
+			"id":"_yHU3T",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_yHU3T-1",
+			"id":"_gnFjA",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
