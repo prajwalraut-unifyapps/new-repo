@@ -1,0 +1,59 @@
+{
+	"appsUsed":[],
+	"createdTime":1734842262097,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"id":"676797961afd9a514a9060fc",
+	"lastModifiedBy":-1,
+	"lcName":"kndoicxooe schedule automation",
+	"modifiedTime":1755496338971,
+	"name":"KnDOiCXOoE Schedule Automation",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":85,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"DUIzI-1",
+			"id":"DUIzI",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"filter":{
+								"value":"",
+								"operator":"EQUAL"
+							},
+							"property":""
+						}
+					],
+					"operator":"AND"
+				},
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"title":"New recurring event",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":7
+}
