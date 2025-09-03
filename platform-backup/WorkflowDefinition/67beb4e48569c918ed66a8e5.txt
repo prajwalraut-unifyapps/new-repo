@@ -1,0 +1,98 @@
+{
+	"appsUsed":["aitable_ai"],
+	"createdTime":1740551396906,
+	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1740799774770,
+		"deployedBy":34,
+		"deployedDefinitionId":"67c27f1e98d06905620e9e20",
+		"status":"PAUSED",
+		"version":6,
+		"workflowVersion":6
+	},
+	"edges":[
+		{
+			"fromNodeId":"LptiN",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"hRgvV",
+			"type":"next"
+		}
+	],
+	"id":"67beb4e48569c918ed66a8e5",
+	"lastModifiedBy":-1,
+	"lcName":"aitable_ai",
+	"modifiedTime":1755496338423,
+	"name":"AITable_Ai",
+	"nodes":[
+		{
+			"context":{
+				"appName":"aitable_ai",
+				"resourceVersion":26,
+				"connectionId":"67c096e5b6a4893fbd17f7e5",
+				"resourceName":"aitable_ai_on_new_record_polling"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"bf2XS-1",
+			"id":"LptiN",
+			"index":0,
+			"inputs":{
+				"spaceId":"spcYaWvoyYsxL",
+				"datasheetId":"dstW4E8vbyfZNC2cQ3",
+				"interval":1,
+				"batchSize":100
+			},
+			"skip":false,
+			"subTitle":"AITable.ai",
+			"title":"New record",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"aitable_ai",
+				"resourceVersion":25,
+				"connectionId":"67c096e5b6a4893fbd17f7e5",
+				"resourceName":"aitable_ai_update_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"bf2XS-1",
+			"id":"hRgvV",
+			"index":0,
+			"inputs":{
+				"recordId":"{{ LptiN.outputs.batch[0].recordId }}",
+				"spaceId":"spcYaWvoyYsxL",
+				"datasheetId":"dstW4E8vbyfZNC2cQ3",
+				"record":{
+					"Work email":"Sumittestingdeploy@gmail.com",
+					"Company name":"qa",
+					"Company size":"100-250",
+					"Job title or department":"tech",
+					"Phone number":"21343",
+					"Stage":"Initiate Contact"
+				}
+			},
+			"skip":false,
+			"subTitle":"AITable.ai",
+			"title":"Update Record",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":13
+}
