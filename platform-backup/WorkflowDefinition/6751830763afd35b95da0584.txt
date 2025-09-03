@@ -1,0 +1,51 @@
+{
+	"appsUsed":[],
+	"createdTime":1733395207585,
+	"deleted":false,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"6751830763afd35b95da0584",
+	"lastModifiedBy":-1,
+	"lcName":"rbac-ui-rldeleteapimanager-ulcplvrld-117333950452920",
+	"modifiedTime":1755496334216,
+	"name":"rbac-ui-RLDeleteApiManager-ULcPLvRLd-117333950452920",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":84,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ADaU1-1",
+			"id":"_5iJkl",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34783,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":8
+}
