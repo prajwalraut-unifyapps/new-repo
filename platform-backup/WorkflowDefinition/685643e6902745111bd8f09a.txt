@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750483942140,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_NSl3J",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_IepbN",
+			"type":"next"
+		}
+	],
+	"id":"685643e6902745111bd8f09a",
+	"lastModifiedBy":34,
+	"lcName":"deleteloopwithmultiplebranches_117504839255580",
+	"modifiedTime":1754310721643,
+	"name":"deleteLoopWithMultipleBranches_117504839255580",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_NSl3J-1",
+			"id":"_NSl3J",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_NSl3J-1",
+			"id":"_IepbN",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
