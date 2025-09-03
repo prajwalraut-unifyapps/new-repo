@@ -1,0 +1,44 @@
+{
+	"appsUsed":[],
+	"createdTime":1751266509777,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"686234cd7768e169548069c0",
+	"lastModifiedBy":34,
+	"lcName":"filter -- trigger - 11751266296918",
+	"modifiedTime":1754310575815,
+	"name":"Filter -- Trigger - 11751266296918",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OpXm6-1",
+			"id":"n_XOWFI",
+			"index":0,
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
