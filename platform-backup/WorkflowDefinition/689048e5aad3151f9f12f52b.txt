@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754286309704,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_cALFM",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_5m2YM",
+			"type":"next"
+		}
+	],
+	"id":"689048e5aad3151f9f12f52b",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonmicrosoft excel_11754284266805",
+	"modifiedTime":1754372570522,
+	"name":"TestButtonMicrosoft Excel_11754284266805",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cALFM-1",
+			"id":"_cALFM",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cALFM-1",
+			"id":"_5m2YM",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
