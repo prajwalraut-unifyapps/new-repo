@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754896283020,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_UEgWb",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_8hDWW",
+			"type":"next"
+		}
+	],
+	"id":"6899979bc57d49ed2c8fc855",
+	"lastModifiedBy":34,
+	"lcName":"gmail-new email thread in gmailverifytimeisnotautoupdating117548962778950",
+	"modifiedTime":1755074927022,
+	"name":"Gmail-New email thread in GmailverifyTimeIsNotAutoUpdating117548962778950",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_UEgWb-1",
+			"id":"_UEgWb",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_UEgWb-1",
+			"id":"_8hDWW",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
